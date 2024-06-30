@@ -11,8 +11,7 @@ monthly_savings = int(monthly_income - monthly_expenses)
 annual_interest_rate = 0.05
 
 # Calculate the projected savings after one year with interest
-annual_savings = monthly_savings * 12
-projected_savings = int(annual_savings + (annual_savings * annual_interest_rate))
+projected_savings = monthly_savings * 12 + (monthly_savings * 12 * annual_interest_rate)
 
 # Print the results
 print(f"Your monthly savings are ${monthly_savings}.")
