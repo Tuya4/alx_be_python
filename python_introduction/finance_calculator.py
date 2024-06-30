@@ -8,7 +8,7 @@ total_monthly_expenses = float(input("Enter your total monthly expenses: "))
 monthly_savings = monthly_income - total_monthly_expenses
 
 # Assume an annual interest rate of 5%
-#annual_interest_rate = 0.05
+annual_interest_rate = 0.05
 
 # Calculate the projected savings after one year with interest
 projected_annual_savings = monthly_savings * 12 + (monthly_savings * 12 * 0.05)
