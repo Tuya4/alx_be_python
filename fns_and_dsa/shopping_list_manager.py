@@ -15,6 +15,7 @@ def main():
             item = input("Enter the item to add: ")
             shopping_list.append(item)
             print(f"{item} has been added to the shopping list.")
+            pass
         elif choice == "2":
             item = input("Enter the item to remove: ")
             if item in shopping_list:
@@ -22,6 +23,7 @@ def main():
                 print(f"{item} has been removed from the shopping list.")
             else:
                 print(f"{item} is not in the shopping list.")
+            pass    
         elif choice == "3":
             if shopping_list:
                 print("\nCurrent Shopping List:")
@@ -29,6 +31,7 @@ def main():
                     print(f"{idx}. {item}")
             else:
                 print("\nThe Shopping list is empty.")
+            pass    
         elif choice == "4":
             print("Goodbye!")
             break
