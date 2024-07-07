@@ -10,7 +10,7 @@ elif operation == "*":
     print(f"The result is {int(num1) * int(num2)}.")
 elif operation == "/":
     if num2 == "0":
-        print("You can't divide by zero!")
+        print("Cannot divide by zero.")
     else:
         print(f"The result is {int(num1) / int(num2)}.")
 else:
